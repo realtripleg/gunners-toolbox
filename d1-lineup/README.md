@@ -1,6 +1,6 @@
-# Claude Code agent team
+# d1-lineup
 
-21 agents + a referee command.
+21 specialist agents and a referee command that runs them.
 
 ## Layout
 - `agents/`
@@ -10,9 +10,8 @@
     database, ci, infra, shell
 - `commands/referee.md` : `/referee <task>` runs the team
 
-## Install (per project)
-    mkdir -p .claude
-    cp -r agents commands .claude/
+## Install
+See the [main README](../README.md#install).
 
 ## Use
 - `/agents` lists them

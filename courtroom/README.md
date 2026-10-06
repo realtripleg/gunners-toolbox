@@ -9,7 +9,7 @@ commands/  trial.md (main Claude, the clerk)
 ```
 
 ## Install
-Copy `agents/*` to `~/.claude/agents/` (or `.claude/agents/` in a project) and `commands/trial.md` to `~/.claude/commands/` (or `.claude/commands/`). Restart Claude Code.
+See the [main README](../README.md#install).
 
 ## Use
 ```
