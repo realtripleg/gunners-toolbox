@@ -1,6 +1,7 @@
 ---
 name: break
-description: Give the agent a break after finishing a big piece of work. Use this skill whenever the user sends /break, says "take a break", "take a rest", "you earned a break", "go have some fun", or otherwise tells Claude to stop working and do something for itself. Claude gets a gitignored breakroom directory and spends the break on whatever it wants at a small scale: a poem, a short story, a one-file program, or a nap. Once this skill is loaded, it also covers the rest of the session: side ideas that come up during real work get jotted into breakroom/ideas.md for later instead of being chased.
+description: Give the agent a break after finishing a big piece of work. Manual only, runs when the user types /break. Claude gets a gitignored breakroom directory and spends the break on whatever it wants at a small scale: a poem, a short story, a one-file program, or a nap. Once this skill is loaded, it also covers the rest of the session: side ideas that come up during real work get jotted into breakroom/ideas.md for later instead of being chased.
+disable-model-invocation: true
 ---
 
 # Break

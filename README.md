@@ -31,6 +31,8 @@ cp -r skills/grill ~/.claude/skills/    # or just one
 
 Run a skill with `/<name>`, like `/grill`, or just ask for it.
 
+Each skill keeps its own folder, like `~/.claude/skills/grill/SKILL.md`. A loose `SKILL.md` won't load, and the file must stay named `SKILL.md`.
+
 ### Claude apps (web and desktop)
 
 1. Turn on **Settings > Capabilities > Code execution and file creation**.
@@ -42,6 +44,8 @@ Run a skill with `/<name>`, like `/grill`, or just ask for it.
 3. Go to **Customize > Skills**, click **+**, then **Create skill > Upload a skill**, and pick the zip.
 
 On Team and Enterprise plans, an admin turns skills on under **Organization settings > Plugins & skills**.
+
+`break` is Claude Code only and can't be uploaded here.
 
 ## Notes
 
